@@ -190,11 +190,21 @@ ul, ol, li {
     margin-top: 50px;
 }
 
+.review__cell img {
+    width: 120px;
+    height: 120px;
+}
+
 .grid__ratings {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.grid__ratings img {
+    width: 45px;
+    height: 24px;
 }
 
 .grid__ratings p {
@@ -206,10 +216,11 @@ ul, ol, li {
     margin-bottom: 20px;
     width: 150px;
     height: 50px;
-    border: 1px solid rgb(242,80,70);
-    color: rgb(242,80,70);
+    border: 1px solid #f25046;
+    color: #f25046;
     font-family: montserrat-regular;
     border-radius: 10px;
+    background-color: white;
 }
 
 .footer__main {
@@ -231,6 +242,10 @@ ul, ol, li {
     color: white;
 }
 
+.footer__main a {
+    color: white;
+}
+
 .footer__main p:hover {
     color: rgb(244,210,127);
 }
@@ -241,10 +256,11 @@ ul, ol, li {
 
 .footer__main img {
     width: 250px;
-    height: 70px;
+    height: 80px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: calc(50% - 125px);
+    object-fit: cover;
 }
 
 .copyrights {
@@ -267,9 +283,10 @@ ul, ol, li {
   
   .navbar img {
     height: 30px;
-    width: auto;
+    width: 95px;
     justify-self: start;
     margin-left: 20px;
+    object-fit: cover;
   }
   
   .navbar ul {
